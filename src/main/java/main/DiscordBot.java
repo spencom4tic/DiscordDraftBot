@@ -35,7 +35,7 @@ public class DiscordBot extends ListenerAdapter {
             listOfPokemon.put(x, new Pokemon(x));
 
         }
-        JDA bot = JDABuilder.createDefault("OTI5MTE1MDA3Mjg1ODY2NTc2.GmZeTs.EPxhE1T2RmOYi1x0uPz9LHaUd4nxNz_Y8bv7PI")
+        JDA bot = JDABuilder.createDefault("YOUR-TOKEN-HERE")
                 .setActivity(Activity.customStatus("Spence Bot Test"))
                 .enableIntents(GatewayIntent.MESSAGE_CONTENT)
                 .addEventListeners(new DiscordBot())
